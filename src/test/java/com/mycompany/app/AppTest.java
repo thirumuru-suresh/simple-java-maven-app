@@ -19,6 +19,7 @@ public class AppTest
     @Test
     public void testAppMessage()
     {
+        System.out.println("This is test app message validation");
         App app = new App();
         assertEquals("Hello World!", app.getMessage());
     }
